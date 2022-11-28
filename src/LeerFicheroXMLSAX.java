@@ -14,7 +14,7 @@ public class LeerFicheroXMLSAX {
         XMLReader pXML = XMLReaderFactory.createXMLReader();
         MiDefaultHandler mDF = new MiDefaultHandler();
         pXML.setContentHandler(mDF);
-        InputSource fichXML = new InputSource("FichEmpleado1.xml");
+        InputSource fichXML = new InputSource("FichEmpleados.xml");
         pXML.parse(fichXML);
     }
 
