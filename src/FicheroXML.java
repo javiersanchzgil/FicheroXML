@@ -31,8 +31,9 @@ public class FicheroXML{
         attr.setValue("primero");
         elem.setAttributeNode(attr);
         elemSub=doc.createElement("apellido1");
-        text=doc.createTextNode("Pérez");
+        text=doc.createTextNode("Rodriguez");
         elem.appendChild(elemSub);
+        elemSub.appendChild(text);
         elemSub=doc.createElement("apellido2");
         text=doc.createTextNode("Sanz");
         elem.appendChild(elemSub);
@@ -46,5 +47,8 @@ public class FicheroXML{
         Transformer transf = TransformerFactory.newInstance().newTransformer();
         transf.transform(source, result);
         System.out.println("Fichero XML creado correctamente");
+
+
+
     }
 }

@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Empleados>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Empleados>
     <Empleado>
         <id>1</id>
-        <apellidos orden="primero"><apellido1/><apellido2>Sanz</apellido2></apellidos>
+        <apellidos orden="primero">
+            <apellido1>Rodriguez</apellido1>
+            <apellido2>Sanz</apellido2>
+        </apellidos>
         <departamento>150</departamento>
     </Empleado>
 </Empleados>
